@@ -4,7 +4,7 @@ import {widthPercentageToDP as wp, heightPercentageToDP as hp} from 'react-nativ
 
 export default function Features() {
   return (
-    <View style={{height: hp(60), marginTop: hp(20)}} >
+    <View style={{height: hp(60)}} >
       <Text style={styles.text1} >Features</Text>
       <View style={styles.view1a}>
         <View style={styles.view2}>
